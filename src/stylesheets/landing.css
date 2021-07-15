@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Switzer-Regular';
+    src: url('../assets/fonts/Switzer-Regular.woff2') format('woff2'), url('../assets/fonts/Switzer-Regular.woff') format('woff'), url('../assets/fonts/Switzer-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'recoleta';
+    src: url("../assets/fonts/Recoleta/recoleta-regulardemo.otf") format("opentype");
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html body {
+    color: #ffffff;
+    font-family: 'Switzer-Regular';
+    background: #162137;
+    padding-left: 68.71px;
+    padding-right: 68.71px;
+    overflow: hidden;
+}
+
+body .header {
+    width: 100%;
+    background: transparent;
+    height: 116.48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header span {
+    font-weight: 600;
+    font-size: 27.63px;
+    line-height: 36px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo #span-1 {
+    color: rgba(255, 214, 102, 1);
+}
+
+.header .logo #span-2 {
+    color: #ffffff;
+}
+
+ul .toggle-link {
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+
+.header .toggle-button {
+    position: absolute;
+    align-self: center;
+    margin-left: auto;
+    justify-content: space-between;
+    width: auto;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background: rgba(255, 214, 102, 1);
+    border-radius: 10px;
+}
+
+ul {
+    width: auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 0;
+    width: 100%;
+    justify-content: space-between
+}
+
+.ul a {
+    padding: 14px 16px;
+}
+
+.nav-links a {
+    font-family: 'Switzer-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul .action button {
+    width: 117px;
+    height: 47px;
+    border-radius: 3px;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+ul .action .primary {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+ul .action .secondary {
+    background: rgba(255, 214, 102, 1);
+    color: rgba(13, 42, 99, 1);
+    border: none;
+}
+
+#my-nav {
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 .caption {
+    color: rgba(255, 214, 102, 1);
+    font-family: 'recoleta';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49.8123px;
+    line-height: 51px;
+    justify-self: flex-start;
+    width: 460.33px;
+    height: 202.68px
+}
+
+.box1 p {
+    font-family: 'Switzer-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.1766px;
+    line-height: 145.5%;
+    letter-spacing: 0.06em;
+    width: 447.9px;
+    height: 49.81px;
+    /* padding-right: 11.43px; */
+}
+
+.box1 .call-to-action {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.box1 .call-to-action button {
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 .call-to-action .primary {
+    height: 45px;
+    width: 129px;
+    background: rgba(255, 214, 102, 1);
+    color: #0D2A63;
+    font-weight: 600;
+    font-size: 13.7413px;
+    line-height: 18px;
+}
+
+.box1 .call-to-action .secondary {
+    margin-left: 39.51px;
+    background: transparent;
+    color: #ffffff;
+}
+
+.box2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.box2 img {
+    width: 575.42px;
+    height: 374.45px;
+}
+
+.box2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1028px) {
+    .header {
+        background-color: transparent;
+        overflow: hidden;
+    }
+    ul li a {
+        float: left;
+        display: block;
+        /* color: #f2f2f2; */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .header .toggle-button {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header li a:not(:first-child) {
+        display: none;
+    }
+    .header ul li .toggle-button {
+        float: right;
+        display: block;
+    }
+    .header.responsive {
+        position: relative;
+    }
+    .header.responsive .toggle-button {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header.responsive .toggle-button {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
