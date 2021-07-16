@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./stylesheets/landing.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
     <title>Title</title>
 </head>
 
 <body>
 
     <Header class="header" id="header">
-        <ul class="nav-menu">
 
+
+
+        <ul class="nav-menu">
             <li class="nav-links">
 
                 <a class="logo">
@@ -24,55 +28,71 @@
 
 
 
-
-
-
-            <li class="nav-links">
+            <li class="nav-links dropbtn">
                 <a class="nav-link " href="#">For Investors <svg width="9" height="6" viewBox="0 0 9 6" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M0.0958658 1.09451C0.0989908 1.19841 0.142741 1.29685 0.21696 1.36951L4.21696 5.36951C4.37321 5.52576 4.62633 5.52576 4.78258 5.36951L8.78258 1.36951C8.88727 1.26951 8.92946 1.12029 8.89274 0.979663C8.85602 0.839819 8.74665 0.730444 8.6068 0.693725C8.46618 0.657006 8.31696 0.699194 8.21696 0.803881L4.49977 4.52107L0.782585 0.803882C0.667741 0.685913 0.49196 0.649975 0.339616 0.714038C0.188053 0.778882 0.0911782 0.929663 0.0958658 1.09451Z"
                             fill="white" />
                     </svg></a>
+
+                <ul class="dropdown">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
             </li>
-            <li class="nav-links">
+            <li class="nav-links dropbtn2">
                 <a class="nav-link " href="#">For Founders <svg width="9" height="6" viewBox="0 0 9 6" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M0.0958658 1.09451C0.0989908 1.19841 0.142741 1.29685 0.21696 1.36951L4.21696 5.36951C4.37321 5.52576 4.62633 5.52576 4.78258 5.36951L8.78258 1.36951C8.88727 1.26951 8.92946 1.12029 8.89274 0.979663C8.85602 0.839819 8.74665 0.730444 8.6068 0.693725C8.46618 0.657006 8.31696 0.699194 8.21696 0.803881L4.49977 4.52107L0.782585 0.803882C0.667741 0.685913 0.49196 0.649975 0.339616 0.714038C0.188053 0.778882 0.0911782 0.929663 0.0958658 1.09451Z"
                             fill="white" />
                     </svg></a>
+                <ul class="dropdown2">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
             </li>
-            <li class="nav-links">
+            <li class="nav-links dropbtn3">
                 <a class="nav-link " href="#"> Company <svg width="9" height="6" viewBox="0 0 9 6" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M0.0958658 1.09451C0.0989908 1.19841 0.142741 1.29685 0.21696 1.36951L4.21696 5.36951C4.37321 5.52576 4.62633 5.52576 4.78258 5.36951L8.78258 1.36951C8.88727 1.26951 8.92946 1.12029 8.89274 0.979663C8.85602 0.839819 8.74665 0.730444 8.6068 0.693725C8.46618 0.657006 8.31696 0.699194 8.21696 0.803881L4.49977 4.52107L0.782585 0.803882C0.667741 0.685913 0.49196 0.649975 0.339616 0.714038C0.188053 0.778882 0.0911782 0.929663 0.0958658 1.09451Z"
                             fill="white" />
                     </svg></a>
+                <ul class="dropdown3">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
             </li>
             <li class="nav-links">
                 <a class="nav-link" href="#"> Help </a>
             </li>
 
-            <li class="nav-links action">
+            <!-- <div class="action-buttons"> -->
+
+            <li class="nav-links action signIn">
 
                 <button class="primary"> Sign In</button>
             </li>
 
-            <li class="nav-links action">
+            <li class="nav-links action signUp">
 
                 <button class="secondary"> Join Us</button>
             </li>
-            <li class=" toggle-link">
+            <!-- </div> -->
 
-                <button class="toggle-button" onClick="myFunction()">
-                    click here
-                </button>
-            </li>
+
+
+
         </ul>
 
-
+        <button class="toggle-button">
+            click here
+        </button>
 
 
 

@@ -1,8 +1,9 @@
-function myFunction() {
-    var x = document.getElementById("header");
-    if (x.className === "header") {
-        x.className += " responsive";
-    } else {
-        x.className = "header";
-    }
-}
+$('.dropbtn').on("click", () => {
+    $('.dropdown').toggleClass('display');
+})
+$('.dropbtn2').on("click", () => {
+    $('.dropdown2').toggleClass('display');
+})
+$('.dropbtn3').on("click", () => {
+    $('.dropdown3').toggleClass('display');
+})
