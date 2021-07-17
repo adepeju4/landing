@@ -502,12 +502,17 @@ button{
     ul .action button {
         border: none;
     }
+    ul .signIn:hover{
+        background: #fff;
+    }
     ul .signIn {
         width: 100%;
-        background: #cf1e1e;
+        background: #fff;
         display: flex;
         justify-content: center;
         padding-bottom: 10px;
+        border: none;
+
     }
     ul .signUp {
         width: 100%;
