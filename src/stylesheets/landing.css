@@ -197,6 +197,8 @@ ul li:hover .dropdown2 {
     flex-direction: column;
     margin-top: 95px;
     width: 460px;
+    align-self: center;
+    
 }
 
 .box1 .caption {
@@ -208,7 +210,8 @@ ul li:hover .dropdown2 {
     line-height: 51px;
     justify-self: flex-start;
     width: 460.33px;
-    height: 202.68px
+    height: 202.68px;
+    margin-bottom: 10px;
 }
 
 .box1 p {
@@ -400,15 +403,15 @@ button{
     .box1{
         margin-top: 58.61px;
        width: 100%;
-        
+        display: flex;
         align-self: center;
     }
 
     .box1 .caption{
-        font-size: 48px;
+        font-size: 41px;
     text-align: center;
     width: 100%;
-    
+    height: auto;
     line-height: 36px;
     align-self: center;
     }
