@@ -475,7 +475,7 @@ button{
    
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .main{
         margin-top: 30px;
     }
@@ -611,7 +611,7 @@ button{
     }
 }
 
-@media (max-width: 330px){
+@media screen and (max-width: 330px){
     body .header{
         margin-top: 15px;
     }
