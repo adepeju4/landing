@@ -8,26 +8,37 @@
     <link rel="stylesheet" href="./stylesheets/landing.css">
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-    <title>Title</title>
+    <title>Blockchain</title>
 </head>
 
 <body>
 
-    <Header class="header" id="header">
+    <nav class="header" id="header">
+
+
+        <a class="logo">
+            <img src="./assets/Object.png" alt="crypt-vestor">
+            <span id="span-1">Crypt</span><span id="span-2">Vestor</span>
+        </a>
+
+
+        <button class="toggle-button">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </button>
 
 
 
+        <div class="menu-content" style="width: 100%;">
         <ul class="nav-menu">
-            <li class="nav-links">
+            <!-- <li class="nav-links">
 
-                <a class="logo">
-                    <img src="./assets/Object.png" alt="crypt-vestor">
-                    <span id="span-1">Crypt</span><span id="span-2">Vestor</span>
-                </a>
-            </li>
+            </li> -->
 
 
 
+           
             <li class="nav-links dropbtn">
                 <a class="nav-link " href="#">For Investors <svg width="9" height="6" viewBox="0 0 9 6" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -37,9 +48,9 @@
                     </svg></a>
 
                 <ul class="dropdown">
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
                 </ul>
             </li>
             <li class="nav-links dropbtn2">
@@ -50,9 +61,9 @@
                             fill="white" />
                     </svg></a>
                 <ul class="dropdown2">
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
                 </ul>
             </li>
             <li class="nav-links dropbtn3">
@@ -63,9 +74,9 @@
                             fill="white" />
                     </svg></a>
                 <ul class="dropdown3">
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
+                    <li>lorem </li>
+                    <li>lorem </li>
+                    <li>lorem </li>
                 </ul>
             </li>
             <li class="nav-links">
@@ -89,23 +100,22 @@
 
 
         </ul>
+    </div>
 
-        <button class="toggle-button">
-            click here
-        </button>
-
+     
 
 
-    </Header>
+
+</nav>
 
     <main class="main">
 
         <div class="box1">
             <p class="caption">
-                Invest <br> token-by-token in world-changing <br> cryptocurrencies
+                Invest <br class="desktop"> token-by-token <br class="mobile"> in world-changing <br class="all"> cryptocurrencies
 
             </p>
-            <p>Join the thousands of others token investors to fund <br> the next wave cryptocurrencies</p>
+            <p class="sub-caption">Join the thousands of others token investors <br class="mobile"> to fund <br class="desktop"> the next wave cryptocurrencies</p>
 
             <div class="call-to-action">
                 <button class="primary"> Invest Now</button>
@@ -114,7 +124,12 @@
                         <path
                             d="M15.5393 7.33716L18.9746 3.90183L15.5393 0.466499V3.043H0.0802975V4.76066H15.5393V7.33716Z"
                             fill="white" />
-                    </svg></button>
+                    </svg>
+                </button>
+                <button class="mobile-secondary">
+                    Sign In
+                </button>
+
             </div>
         </div>
 

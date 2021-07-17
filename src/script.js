@@ -7,3 +7,14 @@ $('.dropbtn2').on("click", () => {
 $('.dropbtn3').on("click", () => {
     $('.dropdown3').toggleClass('display');
 })
+$('.toggle-button').on('click', function(){
+    $('.menu-content').toggle();
+})
+
+
+
+   
+
+
+
+
