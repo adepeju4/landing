@@ -396,10 +396,11 @@ button{
         display: none;
     }
 
+    s
     .box1{
         margin-top: 58.61px;
        width: 100%;
-        height: 147.83px;
+        
         align-self: center;
     }
 
@@ -628,7 +629,7 @@ button{
     }
     .box1 .caption{
         height: auto;
-        font-size: 24px;
+        font-size: 20px;
     }
     .box1 .sub-caption{
         font-size: 8px;
