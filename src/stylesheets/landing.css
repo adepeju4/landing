@@ -482,6 +482,9 @@ button{
     .header{
         margin-top: 30px !important;
     }
+    .header ul{
+        height: 400px;
+    }
     .header .toggle-button{
         top: 49px;
     }
